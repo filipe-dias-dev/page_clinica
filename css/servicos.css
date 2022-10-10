@@ -5,6 +5,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'Arial Narrow', Arial;
 }
 
 .wrapper {
@@ -36,7 +37,18 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+.titulo {
+    font-size: 46px;
+}
+.paragrafo {
+    font-size: 26px;
+}
 .footer {
+    display: flex;
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    text-align: center;
+}
+.footer ul li {
+    list-style-type: none
 }
