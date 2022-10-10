@@ -13,7 +13,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(47, 0, 255);
 }
 
 .main {
@@ -24,18 +24,22 @@ body {
 
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(47, 0, 255);
     padding: 10px 20px 0px;
 }
 
-.header {
-    background-color: rgb(5, 108, 72);
-    min-height: 150px;
+.menu ul li,
+.menu ul li a {
+    line-height: 30px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
 }
 
-#img_01 {
-    width: 100%;
-    border-radius: 20px;
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
 }
 
 .content {
@@ -69,9 +73,10 @@ body {
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(47, 0, 255);
     min-height: 150px;
     text-align: center;
+    color: white;
 }
 
 .footer ul li {
