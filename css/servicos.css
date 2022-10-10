@@ -28,6 +28,14 @@ body {
     padding: 10px 20px 0px;
 }
 
+.menu ul li,
+.menu ul li a {
+    line-height: 30px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .header {
     background-color: rgb(5, 108, 72);
     min-height: 150px;
