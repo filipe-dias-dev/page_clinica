@@ -40,6 +40,19 @@ body {
 .titulo {
     font-size: 46px;
 }
+.telefones {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#whatsapp,
+#tel {
+    width: 20px;
+    padding-right: 5px;
+}
+.paragrafo_tel,
+.paragrafo_whatssap {
+    display: flex;
+}
 .paragrafo {
     font-size: 26px;
 }
