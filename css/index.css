@@ -24,7 +24,7 @@ body {
 
 .menu {
     width: 15%;
-    background-color: rgb(47, 0, 255);
+    background-color: rgb(124, 95, 255);
     padding: 10px 20px 0px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(47, 0, 255);
+    background-color: rgb(124, 95, 255);
     min-height: 150px;
     text-align: center;
     color: white;
