@@ -1,7 +1,8 @@
 # Clínica Odontológica 🦷🪥 
 
 
-![Captura da Web_10-10-2022_105510_127 0 0 1](https://user-images.githubusercontent.com/97606816/194882808-75c0d48f-c134-42ef-a102-575f4763b54a.jpeg)
+![Design sem nome (14)](https://user-images.githubusercontent.com/97606816/195926195-a1c02daf-dca7-487e-b6c1-e537c51c86cc.png)
+
 
 ## Descrição: 
 
