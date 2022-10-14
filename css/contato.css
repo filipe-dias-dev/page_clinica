@@ -1,89 +1,103 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 
 body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
-    font-family: 'Arial Narrow', Arial;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Narrow", Arial;
+}
+
+.imagem_header {
+  display: table;
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: url(https://img.freepik.com/fotos-gratis/close-up-de-uma-mulher-de-negocios-com-um-grande-sorriso_1098-3250.jpg?w=826&t=st=1665408513~exp=1665409113~hmac=5fde427461f5831bdd583f92a0455b1e6ab819d78185ef948b31eed13a1153f3)  ;
+  background-position: 30% 20%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    background-color: rgb(47, 0, 255);
+  width: 1980px;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(47, 0, 255);
 }
 
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
 }
 
 .menu {
-    width: 15%;
-    background-color: rgb(124, 95, 255);
-    padding: 10px 20px 0px;
+  width: 15%;
+  background-color: rgb(124, 95, 255);
+  padding: 10px 20px 0px;
 }
 
 .menu ul li,
 .menu ul li a {
-    line-height: 30px;
-    font-size: 20px;
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
+  line-height: 30px;
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
 }
 
 .header {
-    background-color: rgb(255, 255, 255);
-    min-height: 150px;
+  background-color: rgb(255, 255, 255);
+  min-height: 150px;
 }
 
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
 }
 
 .titulo {
-    font-size: 46px;
+  font-size: 46px;
 }
 
 .telefones {
-    text-transform: uppercase;
-    font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #whatsapp,
 #tel {
-    width: 20px;
-    padding-right: 5px;
+  width: 20px;
+  padding-right: 5px;
 }
 
 .paragrafo_tel,
 .paragrafo_whatssap {
-    display: flex;
+  display: flex;
 }
 
 .paragrafo {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .footer {
-    background-color: rgb(124, 95, 255);
-    min-height: 150px;
-    text-align: center;
-    color: white;
+  background-color: rgb(124, 95, 255);
+  min-height: 150px;
+  text-align: center;
+  color: white;
 }
 
 .footer ul li {
-    list-style-type: none
+  list-style-type: none;
 }
 
 .footer_01,
 .footer_02 {
-    display: inline-block;
+  display: inline-block;
 }
