@@ -9,8 +9,21 @@ body {
     font-family: 'Arial Narrow', Arial;
 }
 
+.imagem_header {
+    display: table;
+    width: 100%;
+    padding: 160px 0;
+    text-align: center;
+    background: url(https://img.freepik.com/fotos-gratis/equipamento-e-instrumentos-dentarios-no-consultorio-do-dentista-ferramentas-de-close-up_8353-1676.jpg?w=826&t=st=1665407990~exp=1665408590~hmac=c5050a170ea52a9e6fd52e8518593cc431b069fd0bc783e494e7f346b6bdaac8);
+    background-position: 30% 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .wrapper {
-    width: 1200px;
+    width: 1980px;
     display: flex;
     margin: 0 auto;
     background-color: rgb(124, 95, 255);
@@ -19,11 +32,12 @@ body {
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 
 .menu {
     width: 15%;
+    background-color: rgb(124, 95, 255);
     padding: 10px 20px 0px;
 }
 
